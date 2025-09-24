@@ -55,7 +55,7 @@ ROOT_URLCONF = 'dystropos.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['templates/dystropos_app'],
+        'DIRS': ['templates/dystropos_app/'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
